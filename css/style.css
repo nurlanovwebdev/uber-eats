@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family:"Roboto",sans-serif;
+}
+#header {
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16);
+    padding: 20px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-logo {
+    font-size: 38px ;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 5px;
+
+}
+.header-logo span {
+    color: greenyellow;
+    font-weight: 300;
+}
+.header-end button{
+    width: 78px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
+.header-end{
+    display: flex;
+    align-items: center;
+    justify-content:inherit;
+    width: 130px;
+}
+.header-end a {
+    color: black;
+}
+/*HERO*/
+.hero-input input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin: 50px 0;
+    width: 100%;
+    border: none;
+    border-bottom:1px solid ;
+    outline: none;
+}
+.restoran{
+    font-weight: 400;
+    font-size: 22px;
+    align-items: center;
+    color: #1D1D1D;
+}
+/*HERO*/
+/* PRODUCRTS*/
+.products{
+    margin: 40px 0;
+}
+.top-card h2 {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+    padding: 10px 0;
+}
+.top-card h3 {
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    padding: 10px 0;
+}
+.top-card p {
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1D;
+    padding: 10px 0;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+/* PRODUCRTS*/
+
+/*FOOTER*/
+.logo-end{
+    font-size: 38px ;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 5px;
+}
+/*.footer {*/
+/*    display: flex;*/
+/*    align-items: start;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+
+/*}*/
+.logo-end span{
+    color: greenyellow;
+    font-weight: 300;
+}
+.footer-select {
+    width: 227px;
+    height: 40px;
+    background: #3B3B3B;
+    border-radius: 2px;
+    color: #E0E0E0;
+    padding: 0 20px;
+    margin: 30px 0;
+}
+.said-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    margin: 30px 0;
+}
+.block-1 h1 {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.block-1 {
+    display: flex;
+    flex-direction: column;
+}
+.block-2 {
+    margin: 30px 0;
+}
+.block-2 h1 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+.block-3 h1 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+.lengueg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+hr {
+    border: 1px solid #E0E0E0;
+}
+#footer{
+    background: #262626;
+    color: #E0E0E0;
+}
+.footer-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    color: #E0E0E0;
+    background: #000000;
+    width: 190px;
+    border-radius:10px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
+.footer-btn-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    color: #E0E0E0;
+    background: #000000;
+    width: 190px;
+    border-radius:10px;
+    border: 1px solid white;
+}
+.footer-btn a {
+    font-size: 40px;
+    color: white;
+}
+.footer-btn-2 a {
+    font-size: 40px;
+    color: white;
+}
+.btns{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer-bottom{
+    margin: 30px 0;
+    font-weight: 400;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+}
+.bottom-btn{
+    font-size: 30px;
+    background: #59BD5A;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-btn a {
+    font-size: 35px;
+    color: white;
+}
+
+
+
+
+/*FOOTER*/
